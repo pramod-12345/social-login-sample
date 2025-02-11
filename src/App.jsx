@@ -147,15 +147,15 @@ function App() {
           <div className="grid grid-cols-2 gap-4">
             <button
               onClick={handleGithubLogin}
-              className="flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+              className="flex items-center w-full justify-center px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
             >
               <SiGithub className="w-5 h-5 mr-2" />
               <span className="text-sm font-medium">GitHub</span>
             </button>
-            <div className="relative w-full flex items-center justify-center">
+            <div className="relative w-full flex items-center justify-center hover:bg-gray-50 transition-colors">
               <button
                 onClick={handleTwitterLogin}
-                className="flex items-center w-full justify-center px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+                className="flex items-center w-full justify-center px-4 py-2 border border-gray-300 rounded-lg "
               >
                 <FaGoogle className="w-5 h-5 mr-2" />
                 <span className="text-sm font-medium">Google</span>
@@ -164,7 +164,6 @@ function App() {
                 <GoogleLogin
                   onSuccess={handleSuccess}
                   onError={handleError}
-                  className ="w-full flex justify-center items-center !p-0 !m-0"
                   text=""
                 />
               </div>
