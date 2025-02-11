@@ -178,7 +178,7 @@ function App() {
               <span className="text-sm font-medium">Twitter</span>
             </button>
             <FacebookLogin
-              appId={import.meta.env.VITE_FACEBOOK_APP_ID}
+              appId={599371659718546}
               autoLoad={false}
               callback={handleFacebookResponse}
               render={(renderProps) => (
