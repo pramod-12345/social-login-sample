@@ -61,11 +61,11 @@ function App() {
   };
 
   const handleGithubLogin = () => {
-    window.location.href = "https://7b9a-2409-40c1-51-4b45-e1fc-f916-c205-ada6.ngrok-free.app/auth/github";
+    window.location.href = "http://localhost:4040/auth/github";
   };
 
   const handleTwitterLogin = () => {
-    window.location.href = "https://7b9a-2409-40c1-51-4b45-e1fc-f916-c205-ada6.ngrok-free.app/auth/twitter";
+    window.location.href = "http://localhost:4040/auth/twitter";
   };
 
   if (user) {
